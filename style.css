@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-size: cover;
+    z-index: -7;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+body:before {
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
+    z-index: -8;
+    background: url('Images/background.jpg');
+}
+
+body::after {
+    content: '';
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
