@@ -39,3 +39,29 @@
             <img src=Images/gift-box.svg" class="box">
           </p>
         </div>
+        <div class="music">
+          <audio id="myMusic" src="Music/Happy Xmas (War Is Over).mp3" loop=""></audio>
+          <button class="btn_music"
+            <i class="far fa-play-circle"></i>
+            <i class="far fa-pause-circle"></i>
+          </button>
+        </div>
+        <script>
+          $(document).ready(function(){
+            $(".btn_music .fa-play-circle").on('click', function(){
+            $(this).hide();
+            $('.fa-pause-circle').fadeIn();
+            $('#myMusic')[0].play();
+            $('.snow').show();
+            })
+            
+            $(".btn_music .fa-pause-circle").on('click', function(){
+              $(this).hide();
+              $('.fa-play-circle').fadeIn();
+              $('#myMusic')[0].pause();
+              $('.snow').hide();
+              })
+            })
+          </script>
+      </body>
+    </html>  
