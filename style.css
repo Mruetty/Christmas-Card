@@ -37,3 +37,172 @@ body::after {
     width: 100%;
     position: absolute;
 }
+
+.container {
+    z-index: 9999;
+    width: 320px;
+    height: 395px;
+    margin-left: 12%;
+    margin-right: 15%;
+    margin: 10px auto;
+    background-color: #a01;
+    color: #fff;
+    font-family: 'Dancing Script', cursive;
+    border-radius: 15px;
+    box-shadow: 4px 3px 3px 2px gold;
+}
+
+p {
+    padding: 5%;
+    text-align: center;
+    font-size: 42px;
+    font-weight: bolder;
+    text-shadow: 4px 3px 2px gold;
+}
+
+.music { 
+    position: absolute;
+    top: 22%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 200;
+}
+
+.btn-music {
+    background-color: transparent;
+    color: #fff;
+    font-size: 85px;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    opacity: .1;
+    transition: all linear .2s;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn-music: hvoer {
+    opacity: 1;
+}
+
+.fa-pause-circle {
+    display: hide;
+}
+
+.ball {
+    height: 30px;
+}
+
+.candle {
+    height: 32px;
+}
+
+.star {
+    height: 50px;
+}
+
+.star1 {
+    height: 28px;
+}
+
+.box {
+    height: 58px;
+}
+
+.light {
+    height: 29px;
+}
+
+.mistletoe {
+    height: 24px;
+}
+
+.snow {
+    border-radius: 50%;
+    opacity: 0.8;
+    position: absolute;
+    top: -100vh;
+    animation-name: 'fall';
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    display: none;
+}
+
+.layer1 {
+    width: 1.5rem;
+    height: 1.5rem;
+    filter: blur(1.5px);
+    animation-duration: 6s;
+}
+
+.layer1.a {
+    animation-delay: -3s;
+}
+
+.layer2 {
+    width: 1.2rem;
+    height: 1.2rem;
+    filter: blur(3px);
+    animation-duration: 8s;
+}
+
+.layer2.a {
+    animation-delay: -4s;
+}
+
+.layer3 {
+    width: 0.8rem;
+    height: 0.8rem;
+    filter: blur(6px);
+    animation-duration: 10s;
+}
+
+.layer3.a {
+    animation-delay: -5s;
+}
+
+@keyframes fall {
+    100% {
+        transform: translateY(200vh);
+    }
+}    
+    
+@media only screen and (max-width: 399px) {
+    body{
+        height: 0 auto;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .container {
+        margin: 3% auto;
+    }
+}
+
+@media only screen and (max-width:599px) {
+    body {
+        height: 0 auto;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .container {
+        margin: 3% auto;
+    }
+}
+
+@media only screen and (min-width: 899px) {
+    body{
+        height: 0 auto;
+        width 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .container {
+        margin: 8% auto;
+    }
+}                     
