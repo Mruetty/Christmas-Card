@@ -40,8 +40,8 @@ body::after {
 
 .container {
     z-index: 9999;
-    width: 320px;
-    height: 395px;
+    width: 600px;
+    height: 700px;
     margin-left: 12%;
     margin-right: 15%;
     margin: 10px auto;
