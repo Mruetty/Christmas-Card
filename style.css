@@ -42,12 +42,12 @@ body::after {
     z-index: 9999;
     width: 320px;
     height: 395px;
-    margin-left: 12%;
-    margin-right: 15%;
-    margin: 10px auto;
+    margin-left: 8%;
+    margin-right: 11%;
+    margin: 20px auto;
     background-color: #a01;
     color: #fff;
-    font-family: 'Dancing Script', cursive;
+    font-family: "Dancing Script", cursive;
     border-radius: 15px;
     box-shadow: 4px 3px 3px 2px gold;
 }
