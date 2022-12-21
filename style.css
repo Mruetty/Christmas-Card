@@ -48,14 +48,13 @@ body::after {
     background-color: #a01;
     color: #fff;
     font-family: 'Dancing Script', cursive;
-    border-radius: 15px;
+    border-radius: 5px;
     box-shadow: 4px 3px 3px 2px gold;
 }
 
 p {
     padding: 5%;
     text-align: center;
-    margin: auto;
     font-size: 50px;
     font-weight: bolder;
     text-shadow: 4px 3px 2px gold;
