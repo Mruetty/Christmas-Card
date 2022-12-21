@@ -44,11 +44,11 @@ body::after {
     height: 600px;
     margin-left: 12%;
     margin-right: 15%;
-    margin: 10px auto;
+    margin: 1px auto;
     background-color: #a01;
     color: #fff;
     font-family: 'Dancing Script', cursive;
-    border-radius: 5px;
+    border-radius: 15px;
     box-shadow: 4px 3px 3px 2px gold;
 }
 
